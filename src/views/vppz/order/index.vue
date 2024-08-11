@@ -1,5 +1,5 @@
 <template>
-  <div>login</div>
+  <div>order</div>
 </template>
 
 <script setup></script>

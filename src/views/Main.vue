@@ -4,8 +4,12 @@
       <!-- <el-aside width="200px">Aside</el-aside> -->
       <Aside />
       <el-container>
-        <el-header>Header</el-header>
-        <el-main>Main</el-main>
+        <el-header>
+          <Header />
+        </el-header>
+        <el-main>
+          <RouterView />
+        </el-main>
       </el-container>
     </el-container>
   </div>
@@ -13,6 +17,7 @@
 
 <script setup>
 import Aside from "../components/Aside.vue";
+import Header from "../components/navHeader.vue";
 </script>
 
 <style lang="scss" scoped>
